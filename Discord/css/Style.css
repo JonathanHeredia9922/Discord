@@ -1,0 +1,251 @@
+/* Tipografías */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Sigmar&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --tipografiaG: "Sigmar", serif;
+    --tipografiaD: "Lato", serif;
+    --azul: #23272A;
+    --morado: #5865F2;
+    --azul2: #293899;
+    --rosa: #EB4DA9;
+    --gris: #2D2C33;
+    --gris2: #313037;
+    --xd: #F6F6F6;
+}
+
+body {
+    font-family: var(--tipografiaD);
+    font-size: 16px;
+    line-height: 24px;
+    color: #333;
+}
+
+html {
+    scrollbar-width: smooth;
+}
+
+.ancho {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.margen {
+    padding: 15px;
+}
+
+header {
+    background-color: var(--azul);
+    color: white;
+}
+
+.logo {
+    width: 125px;
+}
+
+.logo img {
+    width: 100%;
+    display: block;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.menu ul li a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.btn_blanco, .btnmorado, .btn_negro {
+    border-radius: 40px;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn_blanco {
+    background-color: white;
+    color: var(--azul);
+}
+
+.btnmorado {
+    background-color: var(--morado);
+    color: white;
+}
+
+.btn_negro {
+    background-color: var(--gris);
+    color: white;
+}
+
+.contenedor_cabecera, .contfooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.contenedorslide {
+    background-color: var(--azul);
+    color: white;
+}
+
+h1 {
+    font-family: var(--tipografiaG);
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 400;
+}
+
+main {
+    max-width: 550px;
+}
+
+.contenedorslide figure {
+    max-width: 550px;
+}
+
+.contenedorslide figure img {
+    width: 100%;
+    display: block;
+}
+
+.contenedorslideinfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.contenedorslideinfo span {
+    padding-left: 25px;
+}
+
+.iconmenu {
+    color: white;
+    font-size: 30px;
+    display: none;
+}
+
+.Contenedor_btnLogin {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.Contenedor_Descarga {
+    display: flex;
+    gap: 20px;
+}
+
+.contenedor_info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.infodesc, .infodesc2, .infodesc3, .infodesc4, .infodesc5 {
+    background-color: var(--xd);
+    border-radius: 15px;
+    text-align: center;
+    color: var(--azul);
+    overflow: hidden;
+    width: 350px;
+    padding: 20px;
+}
+
+.infodesc, .infodesc2 {
+    height: 350px;
+}
+
+.infodesc3, .infodesc4 {
+    height: 370px;
+}
+
+.infodesc5 {
+    height: 180px;
+}
+
+.infodesc p, .infodesc2 p, .infodesc3 p, .infodesc4 p {
+    margin-top: 10px;
+    font-weight: bold;
+    padding: 15px;
+}
+
+.infodesc img, .infodesc2 img, .infodesc3 img, .infodesc4 img {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.negritas {
+    font-weight: bold;
+}
+
+.infomin {
+    margin-top: 10px;
+    font-size: 14px;
+    padding: 5px;
+}
+
+footer {
+    background-color: var(--gris);
+    color: white;
+    padding: 20px;
+}
+
+.redes {
+    display: inline-block;
+    vertical-align: top;
+    width: 300px;
+    margin-left: 20px;
+    height: 300px;
+}
+
+.redes a {
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.contenedor_footer p, .contenedor_footer a {
+    margin-left: 20px;
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+}
+
+.iconmas {
+    font-size: 14px;
+    padding: 5px;
+}
+
+.dos, .tres, .cuatro, .cinco {
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+    margin-top: -40px;
+}
+
+.morado {
+    color: var(--morado);
+}
+
+.lineamorada {
+    border: 0;
+    height: 2px;
+    background-color: var(--morado);
+    margin: auto;
+    width: 1150px;
+}
